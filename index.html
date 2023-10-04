@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>YID</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header" class="header">
+        <div class="header__container">
+          <div class="logo">
+            <span class="logo__text lang">М.И.Р.</span>
+            <img src="./assets/img/logo.svg" alt="logo" class="logo__img" />
+          </div>
+
+          <div class="burger">
+            <div class="burger-line"></div>
+          </div>
+          <nav class="nav">
+            <div class="nav-link"><a href="#about-section" class="nav-link__a lang">О форуме</a></div>
+            <div class="nav-link"><a href="#why-section" class="nav-link__a lang">Программа</a></div>
+            <div class="nav-link"><a href="#who-section" class="nav-link__a lang">Кто мы?</a></div>
+            <div class="langControl">
+              <div class="en">en</div>
+              |
+              <div class="ru">ru</div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section id="start-section">
+        <div class="drop__block">
+          <img src="./assets/img/yid/Youth.png" alt="" class="drop__img" />
+        </div>
+        <div class="drop__block">
+          <img src="./assets/img/yid/Integration.png" alt="" class="drop__img" />
+        </div>
+        <div class="drop__block">
+          <img src="./assets/img/yid/Development.png" alt="" class="drop__img" />
+        </div>
+        <p class="data lang">дата проведения форума 23.10 - 27.10</p>
+      </section>
+
+      <section id="about-section">
+        <div class="section-container" id="about">
+          <div class="about">
+            <div class="about-info">
+              <h2 class="about-info__h lang">Мы ищем лучших</h2>
+              <p class="about-info__p lang">
+                Участники «М.И.Р» — инициативная, амбициозная и открытая молодёжь различных стран мира.<br /><br />
+                Неотъемлемый атрибут каждого участника — лидерские качества, эмоциональный интеллект, умение выстраивать
+                коммуникацию и реализованные проекты в области студенческого самоуправления.<br /><br />
+                Нет пределов совершенству, поэтому Международный форум «М. И. Р.» направлен на раскрытие нового
+                потенциала студентов для дальнейшего личностного и профессионального развития.
+              </p>
+              <button class="about-info__button lang">Подать заявку</button>
+            </div>
+            <img src="./assets/img/Image.png" alt="" class="about__img" />
+          </div>
+        </div>
+      </section>
+
+      <section id="why-section">
+        <div class="section-container" id="why">
+          <div class="why">
+            <h2 class="why__h lang">Почему <span class="why__h_purple lang">М. И. Р.?</span></h2>
+            <p class="why-info__p lang">
+              Международный форум «М. И. Р.» — это особый вид платформы, которая предлагает уникальные преимущества и
+              возможности для международного общения и сотрудничества. Важность форума заключается в следующем:
+            </p>
+            <div id="slider">
+              <div class="slider-items">
+                <div class="slider-item">
+                  <img src="./assets/img/slider/lupa.png" alt="" class="slider-item__img" />
+                  <p class="slider-item__text lang">Многообразие культур и перспектив</p>
+                </div>
+                <div class="point"></div>
+                <div class="slider-item">
+                  <img src="./assets/img/slider/planet.png" alt="" class="slider-item__img" />
+                  <p class="slider-item__text lang">Глобальная сеть проф. связей</p>
+                </div>
+                <div class="point"></div>
+                <div class="slider-item">
+                  <img src="./assets/img/slider/rise.png" alt="" class="slider-item__img" />
+                  <p class="slider-item__text lang">Межкультурное развитие</p>
+                </div>
+                <div class="point"></div>
+                <div class="slider-item">
+                  <img src="./assets/img/slider/mail.png" alt="" class="slider-item__img" />
+                  <p class="slider-item__text lang">Обмен знаниями и лучших практик</p>
+                </div>
+                <div class="point"></div>
+                <div class="slider-item">
+                  <img src="./assets/img/slider/Frame.png" alt="" class="slider-item__img" />
+                  <p class="slider-item__text lang">Решение глобальных проблем</p>
+                </div>
+              </div>
+              <div class="buttons">
+                <button class="control left" disabled>&lt;</button>
+                <button class="control right">&gt;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="program-section">
+        <div class="section-container" id="program">
+          <div class="program">
+            <h2 class="program__h">Программа форума</h2>
+            <div class="program__buttons">
+              <button class="program__button">День 1</button>
+              <button class="program__button active">День 2</button>
+              <button class="program__button">День 3</button>
+              <button class="program__button">День 4</button>
+              <button class="program__button">День 5</button>
+              <button class="program__button">День 6</button>
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Мероприятие</th>
+                  <th>Время</th>
+                  <th>Место</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviwes-section">
+        <div class="section-container" id="reviews">
+          <div class="reviews">
+            <h2 class="reviews__h lang">Что говорят наши участники</h2>
+            <div class="reviews__items">
+              <div class="reviews-1">
+                <div class="reviews__item">
+                  <h3 class="item__h lang">Евгения Шибкова</h3>
+                  <p class="item__p lang">
+                    «М.И.Р.» - это больше, чем форум, это маленькая жизнь, которую мы всегда будем помнить своей
+                    атмосферой и людьми. 4 месяца плодотворной подготовки и работы всех организаторов, неделя с
+                    насыщенной программой образовательных и культурных мероприятий. Несмотря на переживания, эмоции и
+                    бессонные ночи, это одна из самых ярких недель для студентов. Это был мой первый опыт организации
+                    такого масштабного мероприятия, но мы вместе с оргкомитетом проделали большую работу.
+                  </p>
+                </div>
+                <div class="reviews__item">
+                  <h3 class="item__h lang">Анна Парамонова</h3>
+                  <p class="item__p lang">
+                    В прошлом году я была координатором участников форума. В памяти навсегда останутся эти близкие
+                    сердцу моменты. Сначала вслепую переписываешься с человеком по почте, а в конце видишь в его
+                    восхищённых глазах желание непременно вернуться ещё раз в Минск.
+                  </p>
+                </div>
+              </div>
+              <div class="reviews-2">
+                <div class="reviews__item">
+                  <h3 class="item__h lang">Юлия Кунаховец</h3>
+                  <p class="item__p lang">
+                    Форум подарил много новых знакомств, впечатлений и взаимных подписок в Инстаграм. С ребятами мы до
+                    сих пор общаемся, следим за колоссальным ростом в научной и профессиональной деятельности друг
+                    друга. Надеюсь, что в этом году наши участники будут с такими же горящими глазами!
+                  </p>
+                </div>
+                <div class="reviews__item">
+                  <h3 class="item__h lang">Евгения Черкас</h3>
+                  <p class="item__p lang">
+                    На форуме я была участником и представителем студенческих организаций БГУ. «М.И.Р.» удивительным
+                    образом перевернуло моё представление о масштабах взаимодействия и существующих возможностях обмена
+                    опытом со студентами из других стран и университетов. Классная атмосфера зарядила энергией на весь
+                    год!
+                  </p>
+                </div>
+                <div class="reviews__item">
+                  <h3 class="item__h lang">Александра Демид</h3>
+                  <p class="item__p lang">
+                    Форум «М.И.Р.» - это возможность формирования не только идей, но и дружбы. Я была куратором, поэтому
+                    с особым вниманием относилась к участникам. С уверенностью могу сказать, что в процессе удалось
+                    значительно пополнить географический список друзей, расширить кругозор.
+                  </p>
+                </div>
+              </div>
+              <div class="reviews-3">
+                <div class="reviews__item">
+                  <h3 class="item__h lang">Валентина Хмелевская</h3>
+                  <p class="item__p lang">
+                    «М.И.Р. - 2021» стал для меня глотком свежего воздуха в пасмурном октябре прошлого года. Форум
+                    подарил мне близких друзей среди как организаторов, так и участников. «М.И.Р.» - это теплейшие
+                    воспоминания и одни из лучших дней всего студенчества!
+                  </p>
+                </div>
+                <div class="reviews__item">
+                  <h3 class="item__h lang">Ксения Баженова</h3>
+                  <p class="item__p lang">
+                    Форум «М.И.Р.» для меня - это огромная ответственность и такие же необъятные эмоции. Активное
+                    совершенствование моих способностей в сфере ведения социальных сетей скрашивали разговоры с ребятами
+                    из других стран об отличиях в самоуправлении и обучении в целом. Буду вспоминать с улыбкой те
+                    секунды на закрытии форума, когда все присутствующие стоя аплодировали и непрерывно кричали
+                    оргкомитету «спасибо», а от усталости было тяжело удержаться на ногах.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="who-section">
+        <div class="section-container" id="who">
+          <div class="who">
+            <h2 class="who__h lang">Кто мы?</h2>
+            <div class="who__about">
+              <img src="/assets/img/who.png" alt="" class="who__about_img" />
+              <div class="who__about_text">
+                <h3 class="who__about__h3 lang">О Студенческом Совете БГУ</h3>
+                <p class="who__about__p lang">
+                  Студенческий совет БГУ — консолидирующий орган студенческого самоуправления БГУ, который имеет особую
+                  структуру, цели и задачи, в том числе объединяет все существующие организации и органы студенческого
+                  самоуправления БГУ. А также представляет интересы студенчества БГУ на различных уровнях.
+                </p>
+              </div>
+            </div>
+            <div class="events">
+              <span class="events__span lang">
+                Мероприятия, организуемые и поддерживаемые Студенческим советом БГУ:</span
+              >
+              <ul class="events__items">
+                <li class="events__item">
+                  <img src="./assets/img/pen.png" alt="" /><span class="lang"
+                    >Международный молодежный форум «М.И.Р.»;</span
+                  >
+                </li>
+                <li class="events__item">
+                  <img src="./assets/img/pen.png" alt="" /><span class="lang">Форум студенческих инициатив;</span>
+                </li>
+                <li class="events__item">
+                  <img src="./assets/img/pen.png" alt="" />
+                  <span class="lang">
+                    Образовательный семинар для пресс-служб студенческого самоуправления— Медиашкола Студенческого
+                    совета БГУ;
+                  </span>
+                </li>
+              </ul>
+              <span class="events__span lang">
+                Путь, пройденный Студенческим советом, полон культовыми мероприятиями не только для белорусского
+                студенчества, но и для студентов разных стран.
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="yid-section">
+        <div class="section-container" id="yid">
+          <div class="yid">
+            <h2 class="yid__h">
+              <img src="./assets/img/YID.png" alt="" class="yid__img lang" />О VII Международном форуме «Y.I.D.: Youth.
+              Integration. Development.»
+            </h2>
+            <p class="yid__p lang">
+              «М.И.Р.: Молодежь. Интеграция. Развитие.» — ежегодный международный молодежный форум, организуемый
+              Белорусским государственным университетом в Минске. Эта платформа позволяет объединить усилия для
+              реализации общих целей и идей.
+            </p>
+            <p class="yid__p lang">
+              Первый форум «М.И.Р.» состоялся в 2016 году. С того момента его участниками стали около 500 студентов из
+              23 стран Европы и Азии. Мероприятие представлено в популярном формате воркшопов, где требуется активная
+              деятельность самих участников.
+            </p>
+            <p class="yid__p lang">
+              В рамках форума подготовлена культурная программа, где они обменяются опытом в вопросах организации
+              эффективной работы сетевого взаимодействия между органами студенческого самоуправления.
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <h2 class="project__h lang">Давай разработаем проект вместе!</h2>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div class="section-container">
+          <nav class="footer__nav">
+            <ul class="footer__ul">
+              <li class="footer__ul__li"><a href="" class="lang">О форуме</a></li>
+              <li class="footer__ul__li"><a href="" class="lang">Программа</a></li>
+              <li class="footer__ul__li"><a href="" class="lang">Кто мы? </a></li>
+            </ul>
+          </nav>
+          <div class="contacts footer__nav">
+            <ul class="footer__ul">
+              <li class="footer__ul__li"><a href="" class="lang">Telegram</a></li>
+              <li class="footer__ul__li"><a href="" class="lang">Instagram</a></li>
+              <li class="footer__ul__li"><a href="" class="lang">Социальная сеть </a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="ruLang.js"></script>
+    <script src="enLang.js"></script>
+    <script src="events.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
